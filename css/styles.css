@@ -589,3 +589,27 @@ a#twitter:hover {
 .login-btn {
   color: white;
 }
+
+.login-btn-space{
+  height: auto;
+}
+
+.beta-btn{
+  font-size: 60px;
+  padding: 15.5px;
+/*  margin: 100px 2px 10px 2px;*/
+/*  background-color: red;*/
+  line-height: 1.6;
+}
+
+.beta-btn:hover{
+  background-color: #FFE57C;
+  color: black;
+  border: 1px solid white;
+}
+
+.btn-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
